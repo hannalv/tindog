@@ -1,0 +1,140 @@
+body {
+  font-family: "montserrat";
+}
+/*title section*/
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+h1 {
+  font-family:"montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family:"montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "ubuntu"
+}
+.navbar {
+  font-size: 120%;
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.download-button1 {
+  color: black;
+}
+.dogpic {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+.icon {
+  color: #ef8172;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+/*features section*/
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+/*Testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*press section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+/*pricing section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+/*cta section*/
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footertitle {
+  color: #fff;
+}
+/*footer section*/
+#footer {
+  text-align: center;
+  padding: 5% 1%;
+}
+.snetwork {
+  padding: 2% 2%;
+}
+@media (max-width: 1030px) {
+  .dogpic  {
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title {
+    text-align: center;
+  }
+}
+a {
+  color: #fff;
+}
